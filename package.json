@@ -1,0 +1,41 @@
+{
+  "name": "repo-onboarding-check",
+  "version": "0.1.0",
+  "description": "Check whether new contributors can find install, run, test, contribute, and support paths.",
+  "type": "module",
+  "bin": {
+    "repo-onboarding-check": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "files": [
+    "src",
+    "fixtures",
+    "docs",
+    "examples",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "keywords": [
+    "onboarding",
+    "open-source",
+    "readme",
+    "contributors",
+    "developer-tools"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/repo-onboarding-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/repo-onboarding-check/issues"
+  },
+  "homepage": "https://github.com/aolingge/repo-onboarding-check"
+}

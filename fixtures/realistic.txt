@@ -1,0 +1,3 @@
+Install: npm ci. Run: npm start. Test: npm test. Contributing: open an issue or PR; see CONTRIBUTING.md.
+
+Operational note: run this in CI with --markdown and --sarif.
